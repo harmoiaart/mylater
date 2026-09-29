@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MyLater</title>
+<style>
+:root{--ink:#171717;--muted:#6f6a63;--bg:#faf8f4;--rule:#e6e1d8;--accent:#ff6b35}
+@media (prefers-color-scheme:dark){:root{--ink:#f5f1ea;--muted:#9e9890;--bg:#121212;--rule:#2a2826}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+main{max-width:520px;text-align:center}
+.mark{width:72px;height:72px;border-radius:20px;background:var(--accent);margin:0 auto 28px;
+display:flex;align-items:center;justify-content:center}
+.mark svg{width:32px;height:32px;fill:#fff}
+h1{font-size:2.4rem;margin:0 0 .3em;letter-spacing:-.02em}
+.tag{color:var(--muted);font-size:1.15rem;margin:0 0 2.5em}
+nav{display:flex;gap:28px;justify-content:center;padding-top:1.5em;border-top:1px solid var(--rule)}
+nav a{color:var(--accent);text-decoration:none;font-weight:500}
+nav a:hover{text-decoration:underline}
+</style></head><body><main>
+<div class="mark"><svg viewBox="0 0 24 24"><path d="M6 2h12a2 2 0 0 1 2 2v18l-8-5-8 5V4a2 2 0 0 1 2-2z"/></svg></div>
+<h1>MyLater</h1>
+<p class="tag">Save now. Do it later.</p>
+<nav><a href="privacy/">Privacy Policy</a><a href="support/">Support</a></nav>
+</main></body></html>
